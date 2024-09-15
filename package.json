@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.cjs"
   },
   "author": "Thomas McNamara",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
-    "mysql2": "^3.11.2"
+    "mysql2": "^3.11.2",
+    "nodemon": "^3.1.4"
   }
 }
